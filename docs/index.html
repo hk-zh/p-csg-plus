@@ -129,20 +129,22 @@
 
 
 <!-- Teaser video-->
-<!--<section class="hero teaser">-->
-<!--  <div class="container is-max-desktop">-->
-<!--    <div class="hero-body">-->
-<!--      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
-<!--        &lt;!&ndash; Your video here &ndash;&gt;-->
-<!--        <source src="static/videos/p-csg.mp4"-->
-<!--        type="video/mp4">-->
-<!--      </video>-->
-<!--      <h2 class="subtitle has-text-centered">-->
-<!--        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.-->
-<!--      </h2>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
+<section class="hero is-small">
+  <div class="hero-body">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full">
+      <video poster="" id="tree" autoplay controls muted loop height="100%" width="768">
+        <!-- Your video here -->
+        <source src="static/videos/p-csg-normal.mp4"
+        type="video/mp4">
+      </video>
+
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -153,7 +155,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            More research attention has recently been given to End-to-End Autonomous Driving Technologies where the entire driving pipeline is replaced with a single neural network because of its simpler structure and faster inference time. Despite this appealing approach largely reducing the components in driving pipeline, its simplicity also leads to interpretability problems and safety issues. The trained policy is not always compliant with the traffic rules and it is also hard to discover the reason for the misbehavior because of the lack of intermediate outputs. Meanwhile, Sensors are also critical to autonomous driving’s security and feasibility to perceive the surrounding environment under complex driving scenarios. In this paper, we proposed P-CSG, a novel Penalty-based Imitation Learning approach with Cross Semantics Generation Sensor Fusion technologies to increase the overall performance of End-to-End Autonomous Driving. We evaluated our model on Carla Leader and achieved state-of-the-art performance.
+            More research attention has recently been given to end-to-end autonomous driving technologies where the entire driving pipeline is replaced with a single neural network because of its simpler structure and faster inference time. Despite this appealing approach largely reducing the components in driving pipeline, its simplicity also leads to interpretability problems and safety issues. The trained policy is not always compliant with the traffic rules and it is also hard to discover the reason for the misbehavior because of the lack of intermediate outputs. Meanwhile, Sensors are also critical to autonomous driving's security and feasibility to perceive the surrounding environment under complex driving scenarios. In this paper, we proposed P-CSG, a novel penalty-based imitation learning approach with cross semantics generation sensor fusion technologies to increase the overall performance of End-to-End Autonomous Driving. We conducted an assessment of our model's performance using the Town 05 Long benchmark, achieving an impressive driving score improvement of over 15%. Furthermore, we conducted robustness evaluations against adversarial attacks like FGSM and Dot attacks, revealing a substantial increase in robustness compared to baseline models.
           </p>
         </div>
       </div>
